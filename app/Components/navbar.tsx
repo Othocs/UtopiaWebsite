@@ -1,19 +1,22 @@
 import React from "react";
 import Image from "next/image";
 import JoinButton from "./widgets/joinButton";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="  bg-[#fcf2ff] shadow-sm fixed top-0 w-full z-50 ">
+    <nav className="  bg-[#fcf2ff]/65 shadow-sm fixed top-0 w-full z-50 backdrop-blur-sm ">
       <div className="flex justify-between items-center w-[90%] h-16 mx-auto">
         <div>
-          <Image
-            src="/utopia.png"
-            alt="..."
-            width={50}
-            height={50}
-            className="shrink-0 min-w-[50px]"
-          />
+          <Link href={"/"}>
+            <Image
+              src="/utopia.png"
+              alt="..."
+              width={50}
+              height={50}
+              className="shrink-0 min-w-[50px]"
+            />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -30,7 +33,7 @@ const Navbar = () => {
           <JoinButton />
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
