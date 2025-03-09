@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import JoinButton from "./widgets/joinButton";
 const Herotwo = () => {
   return (
-    <div className=" h-screen max-w-[80%] md:max-w-[80%] mx-auto flex flex-col md:gap-y-5 gap-y-10 text-[#380f43] justify-center items-center pb-15">
+    <div className=" h-screen max-w-[80%] md:max-w-[80%] mx-auto flex flex-col md:gap-y-3 gap-y-5 text-[#380f43] justify-center items-center pb-15">
       <div className="flex md:gap-x-15  mx-auto w-full items-center justify-between">
+        {/* Bigger screens */}
         <div className="hidden md:block">
           <Fade direction="left" triggerOnce>
             <div className="flex flex-col gap-5 text-center md:text-left">
@@ -19,6 +21,7 @@ const Herotwo = () => {
           </Fade>
         </div>
 
+        {/* Smaller screens */}
         <div className="block md:hidden">
           <Fade triggerOnce>
             <div className="flex flex-col gap-5 text-center md:text-left">
@@ -45,9 +48,7 @@ const Herotwo = () => {
       </div>
       <div className="block">
         <Fade delay={1000} duration={1200} triggerOnce>
-          <button className="px-8 py-3 border border-[#380f43] hover:bg-[#380f43] hover:text-white transition-all">
-            Join Us
-          </button>
+          <JoinButton />
         </Fade>
       </div>
     </div>

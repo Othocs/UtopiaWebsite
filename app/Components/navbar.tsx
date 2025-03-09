@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import JoinButton from "./widgets/joinButton";
 
 const Navbar = () => {
   return (
@@ -26,9 +27,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button className="bg-[#b35fd6] hover:bg-[#963fb6] text-white px-4 py-2 rounded-full whitespace-nowrap min-w-fit">
-            Contact Us
-          </button>
+          <JoinButton />
         </div>
       </div>
     </header>
