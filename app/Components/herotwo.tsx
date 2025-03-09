@@ -1,25 +1,55 @@
 import React from "react";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 const Herotwo = () => {
   return (
-    <div className="max-w-[80%] md:max-w-[80%] mx-auto flex md:gap-x-15 text-[#380f43] justify-between items-center pb-15">
-      <div className="flex flex-col gap-5 text-center md:text-left">
-        <p className=" text-5xl md:text-7xl ">
-          Bringing AI to the Next Generation of Business Leaders.
-        </p>
+    <div className=" h-screen max-w-[80%] md:max-w-[80%] mx-auto flex flex-col md:gap-y-5 gap-y-10 text-[#380f43] justify-center items-center pb-15">
+      <div className="flex md:gap-x-15  mx-auto w-full items-center justify-between">
+        <div className="hidden md:block">
+          <Fade direction="left" triggerOnce>
+            <div className="flex flex-col gap-5 text-center md:text-left">
+              <p className=" text-5xl md:text-7xl ">
+                Bringing AI to the Next Generation of Business Leaders.
+              </p>
 
-        <p className="hover:text-[#b35fd6] ">
-          Discover the #1 AI association of ESSEC Business School
-        </p>
+              <p className="hover:text-[#b35fd6] ">
+                Discover the #1 AI association of ESSEC Business School
+              </p>
+            </div>
+          </Fade>
+        </div>
+
+        <div className="block md:hidden">
+          <Fade triggerOnce>
+            <div className="flex flex-col gap-5 text-center md:text-left">
+              <p className=" text-5xl md:text-7xl ">
+                Bringing AI to the Next Generation of Business Leaders.
+              </p>
+
+              <p className="hover:text-[#b35fd6] ">
+                Discover the #1 AI association of ESSEC Business School
+              </p>
+            </div>
+          </Fade>
+        </div>
+
+        <Fade direction="right" triggerOnce delay={500}>
+          <Image
+            src={"/logos/bigutopia.png"}
+            alt="utopia"
+            width={350}
+            height={350}
+            className="hidden md:flex shrink-0 min-w-[350px] min-h-[350px]"
+          />
+        </Fade>
       </div>
-
-      <Image
-        src={"/logos/bigutopia.png"}
-        alt="utopia"
-        width={350}
-        height={350}
-        className="hidden md:flex shrink-0 min-w-[350px] min-h-[350px]"
-      />
+      <div className="block">
+        <Fade delay={1000} duration={1200} triggerOnce>
+          <button className="px-8 py-3 border border-[#380f43] hover:bg-[#380f43] hover:text-white transition-all">
+            Join Us
+          </button>
+        </Fade>
+      </div>
     </div>
   );
 };
