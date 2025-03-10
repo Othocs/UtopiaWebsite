@@ -7,6 +7,7 @@ export default async function Page() {
     <>
       <div className="pt-[80px] pb-[60px]">
         <Herotwo />
+
         <Companies />
         <Whatwedo />
       </div>
