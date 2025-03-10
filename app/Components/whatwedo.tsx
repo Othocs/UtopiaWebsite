@@ -6,7 +6,7 @@ const Whatwedo = () => {
   return (
     <div
       className="w-[50%] mx-auto  md:grid md:grid-cols-2 md:grid-rows-2 md:gap-12
-    flex flex-col justify-center mt-10 gap-5"
+    flex flex-col justify-center mt-20 gap-5 "
     >
       <motion.div
         whileHover={{ scale: 1.1 }}
