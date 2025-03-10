@@ -22,7 +22,17 @@ const Herotwo = () => {
         </div>
 
         {/* Smaller screens */}
-        <div className="block md:hidden">
+        <div className="flex flex-col items-center md:hidden">
+          <Fade triggerOnce>
+            <Image
+              src={"/logos/bigutopia.png"}
+              alt="utopia"
+              width={200}
+              height={200}
+              className=" md:flex shrink-0 md:min-w-[350px] md:min-h-[350px] "
+            />
+          </Fade>
+
           <Fade triggerOnce>
             <div className="flex flex-col gap-5 text-center md:text-left">
               <p className=" text-5xl md:text-7xl ">
@@ -42,7 +52,7 @@ const Herotwo = () => {
             alt="utopia"
             width={200}
             height={200}
-            className=" md:flex shrink-0 md:min-w-[350px] md:min-h-[350px] "
+            className=" hidden md:flex shrink-0 md:min-w-[350px] md:min-h-[350px] "
           />
         </Fade>
       </div>

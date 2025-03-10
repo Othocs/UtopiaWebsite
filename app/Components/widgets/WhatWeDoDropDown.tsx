@@ -174,7 +174,7 @@ const PricingContent = () => {
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
         <IoSchoolSharp className="mb-2 text-xl text-[#f8e3ff]" />
-        <span className="text-xs">Formations</span>
+        <span className="text-xs">Trainings</span>
       </Link>
       <Link
         href="/eventspage"

@@ -44,7 +44,7 @@ const Whatwedo = () => {
             />
             <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
               {" "}
-              Formation{" "}
+              Trainings{" "}
             </h1>
           </motion.div>
 
@@ -61,7 +61,7 @@ const Whatwedo = () => {
             />
             <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
               {" "}
-              Hackathon{" "}
+              Hackathons{" "}
             </h1>
           </motion.div>
 
