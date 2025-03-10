@@ -5,7 +5,7 @@ import JoinButton from "./widgets/joinButton";
 const Herotwo = () => {
   return (
     <div className=" h-screen max-w-[80%] md:max-w-[80%] mx-auto flex flex-col md:gap-y-3 gap-y-5 text-[#380f43] justify-center items-center pb-15">
-      <div className="flex md:gap-x-15  mx-auto w-full items-center justify-between">
+      <div className="flex flex-col-reverse md:gap-x-15 md:flex-row mx-auto w-full items-center justify-between">
         {/* Bigger screens */}
         <div className="hidden md:block">
           <Fade direction="left" triggerOnce>
@@ -40,9 +40,9 @@ const Herotwo = () => {
           <Image
             src={"/logos/bigutopia.png"}
             alt="utopia"
-            width={350}
-            height={350}
-            className="hidden md:flex shrink-0 min-w-[350px] min-h-[350px]"
+            width={200}
+            height={200}
+            className=" md:flex shrink-0 md:min-w-[350px] md:min-h-[350px] "
           />
         </Fade>
       </div>

@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const Whatwedo = () => {
   return (
     <>
-      <Fade triggerOnce duration={1500}>
+      <Fade triggerOnce duration={1500} fraction={0.9}>
         <p className="text-2xl text-center mt-20">Our Domains Of Expertise</p>
       </Fade>
       <div
