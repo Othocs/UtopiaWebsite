@@ -13,7 +13,7 @@ const Whatwedo = () => {
         className="w-[50%] mx-auto  md:grid md:grid-cols-2 md:grid-rows-2 md:gap-12
     flex flex-col justify-center mt-10 gap-5 "
       >
-        <Fade cascade triggerOnce>
+        <Fade cascade triggerOnce damping={0.2}>
           <motion.div
             whileHover={{ scale: 1.1 }}
             className="bg-[#b35fd6] rounded-md shadow-md border-[#cc8ce6] border-4 hover:border-[#d058ff]"
