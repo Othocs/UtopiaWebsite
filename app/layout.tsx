@@ -7,8 +7,9 @@ import Navbar from "./Components/navbar";
 import Footer from "./Components/footer/footer";
 
 export const metadata: Metadata = {
-  title: "My App",
-  description: "My Next.js Application",
+  title: "Utopia",
+  description:
+    "Utopia official website. Utopia is the new AI association of ESSEC Business School",
 };
 
 export default function RootLayout({
