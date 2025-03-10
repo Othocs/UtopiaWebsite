@@ -15,9 +15,10 @@ export default function Socials() {
         href={
           "https://www.linkedin.com/company/utopia-essec/posts/?feedView=all"
         }
+        target="_blank"
       >
         <FaLinkedin
-          size={36}
+          size={40}
           color={color1}
           onMouseDown={() => setColor1("#f8e3ff")}
           onMouseOver={() => setColor1("#f8e3ff")}
@@ -27,7 +28,7 @@ export default function Socials() {
         />
       </Link>
 
-      <Link href={"#"}>
+      <Link href={"#"} target="_blank">
         <AiFillInstagram
           size={45}
           color={color2}

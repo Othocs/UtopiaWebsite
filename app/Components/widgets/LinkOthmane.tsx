@@ -5,6 +5,7 @@ const LinkOthmane = () => {
   return (
     <Link
       href={"https://www.linkedin.com/in/othmane-menkor/"}
+      target="_blank"
       className="cursor-pointer hover:text-[#f8e3ff]"
     >
       Othmane Menkor
