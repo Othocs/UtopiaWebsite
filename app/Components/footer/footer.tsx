@@ -1,7 +1,5 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import Link from "next/link";
+
 import BackToTopButton from "../widgets/BackToTopButton";
 import LinkOthmane from "../widgets/LinkOthmane";
 import Socials from "./socials";
