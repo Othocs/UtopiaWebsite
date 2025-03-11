@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import JoinButton from "./widgets/joinButton";
+import JoinButton from "../widgets/joinButton";
 import Link from "next/link";
-import { WhatWeDoDropDown } from "./widgets/WhatWeDoDropDown";
+import { WhatWeDoDropDown } from "./WhatWeDoDropDown";
 
 const Navbar = () => {
   return (

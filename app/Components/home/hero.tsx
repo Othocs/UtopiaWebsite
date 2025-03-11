@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
-import JoinButton from "./widgets/joinButton";
+import JoinButton from "../widgets/joinButton";
 const Herotwo = () => {
   return (
     <div className=" h-screen max-w-[80%] md:max-w-[80%] mx-auto flex flex-col md:gap-y-3 gap-y-5 text-[#380f43] justify-center items-center pb-15">

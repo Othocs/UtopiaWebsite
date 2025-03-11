@@ -177,7 +177,7 @@ const PricingContent = () => {
         <span className="text-xs">Trainings</span>
       </Link>
       <Link
-        href="/eventspage"
+        href="/events"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
         <MdEvent className="mb-2 text-xl text-[#f8e3ff]" />

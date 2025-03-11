@@ -1,7 +1,7 @@
 import React from "react";
 
-import BackToTopButton from "../widgets/BackToTopButton";
-import LinkOthmane from "../widgets/LinkOthmane";
+import BackToTopButton from "./BackToTopButton";
+import LinkOthmane from "./LinkOthmane";
 import Socials from "./socials";
 
 import ArrowIcon from "./arrowicon";
