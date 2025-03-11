@@ -1,6 +1,6 @@
-import Herotwo from "./Components/herotwo";
-import Whatwedo from "./Components/whatwedo";
-import InfiniteLogoSlider from "./Components/widgets/InfiniteLogoSlider";
+import Herotwo from "./Components/home/hero";
+import Whatwedo from "./Components/home/whatwedo";
+import InfiniteLogoSlider from "./Components/home/InfiniteLogoSlider";
 
 export default async function Page() {
   return (

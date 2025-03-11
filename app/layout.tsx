@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
 
 export const metadata: Metadata = {
