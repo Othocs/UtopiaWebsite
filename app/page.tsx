@@ -1,6 +1,7 @@
 import Herotwo from "./Components/home/hero";
 import Whatwedo from "./Components/home/whatwedo";
 import InfiniteLogoSlider from "./Components/home/InfiniteLogoSlider";
+import QandA from "./Components/home/qanda";
 
 export default async function Page() {
   return (
@@ -9,6 +10,7 @@ export default async function Page() {
         <Herotwo />
         <InfiniteLogoSlider />
         <Whatwedo />
+        <QandA />
       </div>
     </>
   );
