@@ -8,7 +8,7 @@ const Companies = () => {
     <>
       <div className="w-[80%] mx-auto text-center">
         <Fade triggerOnce duration={1500}>
-          <p className="text-2xl ">Trusted by leading Tech companies </p>
+          <p className="text-2xl ">Trusted by Leading Tech Companies </p>
         </Fade>
       </div>
 
