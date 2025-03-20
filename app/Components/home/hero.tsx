@@ -45,18 +45,7 @@ const Herotwo = () => {
             </div>
           </Fade>
         </div>
-<<<<<<< HEAD
 
-        <Fade direction="right" triggerOnce delay={500}>
-          <Image
-            src={"/logos/bigutopia.png"}
-            alt="utopia"
-            width={200}
-            height={200}
-            className=" hidden md:flex shrink-0 md:min-w-[350px] md:min-h-[350px] "
-          />
-        </Fade>
-=======
         <div className="hidden md:block">
           <Fade direction="right" triggerOnce delay={500}>
             <Image
@@ -79,7 +68,6 @@ const Herotwo = () => {
             />
           </Fade>
         </div>
->>>>>>> dev
       </div>
       <div className="block">
         <Fade delay={1000} duration={1200} triggerOnce>
