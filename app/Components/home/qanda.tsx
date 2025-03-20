@@ -12,10 +12,14 @@ import { Fade } from "react-awesome-reveal";
 const QandA = () => {
   return (
     <Fade triggerOnce>
-      <div className="w-[80%] mx-auto flex justify-center mt-20">
+      <div className="w-[80%] mx-auto mt-20">
         {/* Container with fixed height to prevent layout shifts */}
-
-        <div className="min-h-[300px] w-full mx-auto flex items-start justify-center">
+        <div className="w-[80%] mx-auto text-center mb-5">
+          <Fade triggerOnce>
+            <p className="text-3xl font-semibold ">Frequent Questions</p>
+          </Fade>
+        </div>
+        <div className="min-h-[275px] w-full mx-auto flex items-start justify-center">
           <Accordion
             type="single"
             collapsible

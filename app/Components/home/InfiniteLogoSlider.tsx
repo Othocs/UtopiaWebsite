@@ -8,7 +8,9 @@ const InfiniteLogoSlider = () => {
     <>
       <Fade triggerOnce cascade className="hidden md:block">
         <div className="w-[80%] mx-auto text-center mb-15">
-          <p className="text-2xl ">Trusted by leading Tech companies </p>
+          <p className="text-3xl font-semibold ">
+            Trusted by Leading Tech Companies{" "}
+          </p>
         </div>
 
         <Slider
