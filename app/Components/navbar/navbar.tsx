@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import JoinButton from "../widgets/joinButton";
 import Link from "next/link";
-import { WhatWeDoDropDown } from "./WhatWeDoDropDown";
 
 const Navbar = () => {
   return (
@@ -24,7 +23,12 @@ const Navbar = () => {
         {/* Desktop Menu */}
 
         <div className="flex gap-x-10">
-          <WhatWeDoDropDown />
+          <Link
+            href={"/events"}
+            className="hidden md:flex items-center gap-1 rounded-full px-3 py-1.5 text-lg transition-colors hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43]"
+          >
+            Our Events
+          </Link>
           <Link
             href={"#"}
             className="hidden md:flex items-center gap-1 rounded-full px-3 py-1.5 text-lg transition-colors hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43]"

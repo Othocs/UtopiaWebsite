@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "id": "event_1",
+      "title": "Future of AI",
+      "date": "2024-09-27",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_1.png"
+    },
+    {
+      "id": "event_2",
+      "title": "IA à tout prix ?",
+      "date": "2024-10-15",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_2.png"
+    },
+    {
+      "id": "event_3",
+      "title": "L'IA en entreprise",
+      "date": "2024-10-31",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_3.png"
+    },
+    {
+      "id": "event_4",
+      "title": "ARC Prize",
+      "date": "2024-11-26",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_4.png"
+    },
+    {
+      "id": "event_5",
+      "title": "Conférence Inaugurale Unaite",
+      "date": "2024-12-02",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_5.png"
+    },
+    {
+      "id": "event_6",
+      "title": "Meetup Alan",
+      "date": "2024-12-11",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_6.png"
+    },
+    {
+      "id": "event_7",
+      "title": "Start From Scratch",
+      "date": "2025-01-22",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_7.png"
+    },
+    {
+      "id": "event_8",
+      "title": "Table Ronde Droit et IA",
+      "date": "2025-01-27",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_8.png"
+    },
+    {
+      "id": "event_9",
+      "title": "Unaite x Perplexity",
+      "date": "2025-02-11",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_9.png"
+    },
+    {
+      "id": "event_10",
+      "title": "Les Rôles Des Femmes Dans L'IA",
+      "date": "2025-02-20",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_10.png"
+    },
+    {
+      "id": "event_11",
+      "title": "Building Outliers: An Evening With Top French Founders",
+      "date": "2025-02-26",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_11.png"
+    },
+    {
+      "id": "event_12",
+      "title": "HealthCare x AI",
+      "date": "2025-03-12",
+      "category": "event",
+      "imagePath": "/affiches/affiches_event/event_12.png"
+    },
+    {
+      "id": "forma_1",
+      "title": "Introduction Au Machine Learning",
+      "date": "2024-11-12",
+      "category": "forma",
+      "imagePath": "/affiches/affiches_forma/forma_1.png"
+    },
+    {
+      "id": "forma_2",
+      "title": "Multiplie Les Capacités de ChatGPT",
+      "date": "2024-11-27",
+      "category": "forma",
+      "imagePath": "/affiches/affiches_forma/forma_2.png"
+    },
+    {
+      "id": "forma_3",
+      "title": "Boost ChatGPT's performance with RAG",
+      "date": "2025-01-30",
+      "category": "forma",
+      "imagePath": "/affiches/affiches_forma/forma_3.png"
+    },
+    {
+      "id": "forma_4",
+      "title": "Explose ton GPA Avec ChatGPT",
+      "date": "2025-02-13",
+      "category": "forma",
+      "imagePath": "/affiches/affiches_forma/forma_4.png"
+    },
+    {
+      "id": "hack_1",
+      "title": "Spotlight: Consumer Edge Hack",
+      "date": "2024-11-22",
+      "category": "hack",
+      "imagePath": "/affiches/affiches_hack/hack_1.png"
+    },
+    {
+      "id": "hack_2",
+      "title": "From LLM to Agentic AI Hackathon",
+      "date": "2025-04-04",
+      "category": "hack",
+      "imagePath": "/affiches/affiches_hack/hack_2.png"
+    }
+  ]
+}
