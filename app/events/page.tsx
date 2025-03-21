@@ -7,8 +7,12 @@ export default async function EventsPage() {
   return (
     <>
       {/* Next Event Countdown Section */}
-      <div className="h-screen text-[#380f43] text-7xl flex flex-col items-center justify-center text-center gap-y-9 relative">
-        <Fade cascade triggerOnce>
+      <div className="h-screen flex flex-col items-center justify-center text-center gap-y-9 relative">
+        <Fade
+          cascade
+          triggerOnce
+          className="text-[#380f43] md:text-7xl text-5xl"
+        >
           <p> Next Event In </p>
           <Countdowncomp />
         </Fade>

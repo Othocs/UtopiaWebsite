@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { Fade } from "react-awesome-reveal";
@@ -8,9 +8,38 @@ import { Fade } from "react-awesome-reveal";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
+  const [iconSize, setIconSize] = useState(100);
+  const [iconMagnification, setIconMagnification] = useState(120);
+
+  useEffect(() => {
+    // Function to update sizes based on screen width
+    const handleResize = () => {
+      const width = window.innerWidth;
+      if (width < 380) {
+        // Mobile screens
+        setIconSize(50);
+        setIconMagnification(65);
+      } else {
+        // Larger screens
+        setIconSize(100);
+        setIconMagnification(120);
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up event listener
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const openInNewTab = (url: string) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
+
   return (
     <div className="mb-10" id="connect-with-us">
       <div className="w-[80%] mx-auto text-center">
@@ -22,9 +51,9 @@ export function DockDemo() {
         <div className="relative">
           <Dock
             direction="middle"
-            iconSize={100}
-            iconMagnification={120}
-            className="h-20"
+            iconSize={iconSize}
+            iconMagnification={iconMagnification}
+            className="h-20 my-2"
           >
             <DockIcon
               onClick={() =>
@@ -48,11 +77,6 @@ export function DockDemo() {
               }
             >
               <Icons.whatsapp className="" />
-            </DockIcon>
-            <DockIcon
-              onClick={() => openInNewTab("mailto:utopia.essec@gmail.com")}
-            >
-              <Icons.gmail className="" />
             </DockIcon>
           </Dock>
         </div>

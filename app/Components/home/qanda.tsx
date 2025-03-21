@@ -16,7 +16,9 @@ const QandA = () => {
         {/* Container with fixed height to prevent layout shifts */}
         <div className="w-[80%] mx-auto text-center mb-5">
           <Fade triggerOnce>
-            <p className="text-3xl font-semibold ">Frequent Questions</p>
+            <p className="md:text-3xl text-2xl font-semibold ">
+              Frequent Questions
+            </p>
           </Fade>
         </div>
         <div className="min-h-[275px] w-full mx-auto flex items-start justify-center">

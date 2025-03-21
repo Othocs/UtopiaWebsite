@@ -8,7 +8,7 @@ const Whatwedo = () => {
   return (
     <>
       <Fade triggerOnce duration={1500} fraction={0.9}>
-        <p className="text-3xl font-semibold  text-center mt-20">
+        <p className="md:text-3xl text-2xl font-semibold  text-center mt-20">
           Our Domains Of Expertise
         </p>
       </Fade>
