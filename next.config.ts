@@ -13,7 +13,8 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
 
-  // Handle common redirects for SEO
+  // Temporarily disable redirects to troubleshoot
+  /* 
   async redirects() {
     return [
       // Redirect www to non-www (or vice versa based on preference)
@@ -36,6 +37,7 @@ const nextConfig: NextConfig = {
       // },
     ];
   },
+  */
 
   // Add HTTP headers for security and caching
   async headers() {
