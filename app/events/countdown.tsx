@@ -7,3 +7,5 @@ const Countdowncomp = () => {
 };
 
 export default Countdowncomp;
+
+// This is a single-line comment
