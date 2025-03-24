@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 type FormStatus = "idle" | "submitting" | "success" | "error";
 
 export default function ContactForm() {
-  const router = useRouter();
+  // const router = useRouter();
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -47,9 +47,9 @@ export default function ContactForm() {
       (event.target as HTMLFormElement).reset();
 
       // Automatically go back to homepage after 3 seconds
-      setTimeout(() => {
-        router.push("/");
-      }, 3000);
+      // setTimeout(() => {
+      //   router.push("/");
+      // }, 3000);
     } catch (error) {
       setStatus("error");
       setErrorMessage(
@@ -87,9 +87,9 @@ export default function ContactForm() {
           <p className="text-gray-600">
             Thank you for contacting us. We&apos;ll get back to you shortly.
           </p>
-          <p className="text-gray-500 mt-4 text-sm">
+          {/* <p className="text-gray-500 mt-4 text-sm">
             Redirecting you to the homepage...
-          </p>
+          </p> */}
         </div>
       ) : (
         <form
