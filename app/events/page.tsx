@@ -2,6 +2,7 @@ import { Fade } from "react-awesome-reveal";
 import Countdowncomp from "./countdown";
 import PastEvents from "./pastevents";
 import ScrollDownIndicator from "./scrolldownindicator";
+import ContactSection from "../Components/widgets/ContactSection";
 
 export default async function EventsPage() {
   return (
@@ -23,6 +24,9 @@ export default async function EventsPage() {
 
       {/* Past Events Gallery Section */}
       <PastEvents />
+
+      {/* Contact Section */}
+      <ContactSection />
     </>
   );
 }

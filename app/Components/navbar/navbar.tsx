@@ -30,7 +30,7 @@ const Navbar = () => {
             Our Events
           </Link>
           <Link
-            href={"#"}
+            href={"/team"}
             className="hidden md:flex items-center gap-1 rounded-full px-3 py-1.5 text-lg transition-colors hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43]"
           >
             Meet the Team
