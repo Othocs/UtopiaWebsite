@@ -92,7 +92,11 @@ export default function ContactForm() {
           </p>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form
+          onSubmit={handleSubmit}
+          className="space-y-6"
+          suppressHydrationWarning
+        >
           <div>
             <label
               htmlFor="name"
@@ -107,6 +111,7 @@ export default function ContactForm() {
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
               placeholder="Your name"
+              suppressHydrationWarning
             />
           </div>
 
@@ -124,6 +129,7 @@ export default function ContactForm() {
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
               placeholder="your.email@example.com"
+              suppressHydrationWarning
             />
           </div>
 
@@ -140,6 +146,7 @@ export default function ContactForm() {
               name="organization"
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
               placeholder="Company, association, etc."
+              suppressHydrationWarning
             />
           </div>
 
@@ -157,6 +164,7 @@ export default function ContactForm() {
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
               placeholder="How can we help you?"
+              suppressHydrationWarning
             />
           </div>
 

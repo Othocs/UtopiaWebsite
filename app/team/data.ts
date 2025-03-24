@@ -64,7 +64,7 @@ export const teamMembers: TeamMember[] = [
     id: 5,
     name: "Valentin Vandekerchove",
     role: "Founding Member",
-    imageUrl: "/team/member3.jpg",
+    imageUrl: "/team/valentin.jpeg",
     bio: "ESSEC & Telecom Paris, passionate about Technology and currently working at BCG ",
     isFounder: true,
     socialLinks: {
@@ -75,8 +75,8 @@ export const teamMembers: TeamMember[] = [
     id: 6,
     name: "Valentine Batsale",
     role: "Founding Member",
-    imageUrl: "/team/member4.jpg",
-    bio: "Essec, Artefact",
+    imageUrl: "/team/valentine.jpeg",
+    bio: "MiM Essec, Data Consultante at Artefact",
     isFounder: true,
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/valentine-batsale-8470771b1/",
@@ -86,7 +86,7 @@ export const teamMembers: TeamMember[] = [
     id: 7,
     name: "Colin Frisch",
     role: "Founding Member",
-    imageUrl: "/team/member4.jpg",
+    imageUrl: "/team/colin.jpeg",
     bio: "AI and ML Research and Developpement, ESSEC - CentraleSupélec double degree",
     isFounder: true,
     socialLinks: {
@@ -97,8 +97,8 @@ export const teamMembers: TeamMember[] = [
     id: 8,
     name: "Alexandre Raimbault",
     role: "Founding Member",
-    imageUrl: "/team/member4.jpg",
-    bio: "MiM Essec, Ex-Artefact and current analyst at Nebesta",
+    imageUrl: "/team/alexandre.jpeg",
+    bio: "MiM Essec, Ex-Artefact and currently analyst at Nebesta",
     isFounder: true,
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/alexandre-raimbault-7a988321b/",
