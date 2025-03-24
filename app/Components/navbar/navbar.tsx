@@ -103,7 +103,7 @@ const Navbar = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden bg-[#fcf2ff]/10 backdrop-blur-sm shadow-lg overflow-hidden"
+            className="md:hidden bg-[#fcf2ff]/65 backdrop-blur-sm shadow-lg overflow-hidden"
           >
             <motion.div
               initial={{ y: -10 }}

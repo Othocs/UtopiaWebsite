@@ -40,7 +40,7 @@ export const teamMembers: TeamMember[] = [
     id: 3,
     name: "Othmane Menkor",
     role: "Head of Hackathon",
-    imageUrl: "/team/otho.jpeg",
+    imageUrl: "/team/othopro.jpg",
     bio: "Student at CentraleSupélec & Essec, regular hackathon participant and loves building AI oriented softwares. (Made this beautiful website in React)",
     isFounder: true,
     socialLinks: {
