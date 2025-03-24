@@ -104,4 +104,26 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/alexandre-raimbault-7a988321b/",
     },
   },
+  {
+    id: 9,
+    name: "Satvik Puti",
+    role: "Head of events",
+    imageUrl: "/team/satvik.jpeg",
+    bio: "MiM Essec, Currently working as Consumer Insights Manager at Opella (Sanofi CHC)",
+    isFounder: true,
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/satvikputi/",
+    },
+  },
+  {
+    id: 10,
+    name: "Alexis Vannson",
+    role: "Member of Team Formation",
+    imageUrl: "/team/alexiss.jpeg",
+    bio: "CentraleSupélec & Essec, Machine Learning enthousiast and lecturer",
+    isFounder: false,
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/alexis-vannson/",
+    },
+  },
 ];
