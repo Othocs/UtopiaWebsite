@@ -3,12 +3,13 @@ import Countdowncomp from "./countdown";
 import PastEvents from "./pastevents";
 import ScrollDownIndicator from "./scrolldownindicator";
 import ContactSection from "../Components/widgets/ContactSection";
+import LumaCheckout from "./luma";
 
 export default async function EventsPage() {
   return (
     <>
       {/* Next Event Countdown Section */}
-      <div className="h-screen flex flex-col items-center justify-center text-center gap-y-9 relative">
+      <div className="h-screen flex flex-col items-center justify-center text-center gap-y-7 relative">
         <Fade
           cascade
           triggerOnce
@@ -16,9 +17,18 @@ export default async function EventsPage() {
         >
           <p> Next Event In </p>
           <Countdowncomp />
+
+          {/* Adding the registration button below the countdown */}
+          <div className="">
+            <LumaCheckout
+              eventId="evt-5p3EajImDt6e6jC"
+              buttonText="Register Now"
+            />
+          </div>
         </Fade>
 
         {/* Scroll Indicator */}
+
         <ScrollDownIndicator />
       </div>
 

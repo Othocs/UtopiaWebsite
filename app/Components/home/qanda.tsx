@@ -25,7 +25,7 @@ const QandA = () => {
           <Accordion
             type="single"
             collapsible
-            className="w-[600px] rounded-xl bg-white/30 backdrop-blur-sm shadow-lg border border-purple-200/30"
+            className="w-[600px] rounded-xl bg-white backdrop-blur-sm shadow-lg border border-purple-200/30"
           >
             <AccordionItem
               value="item-1"

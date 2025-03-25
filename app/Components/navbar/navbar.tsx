@@ -52,13 +52,13 @@ const Navbar = () => {
         <div className="hidden md:flex gap-x-10">
           <Link
             href={"/events"}
-            className="items-center gap-1 rounded-full px-3 py-1.5 text-lg transition-all duration-300 hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43] hover:shadow-md"
+            className="flex items-center justify-center gap-1 rounded-full px-3 py-1.5 text-lg transition-all duration-300 hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43] hover:shadow-md"
           >
             Our Events
           </Link>
           <Link
             href={"/team"}
-            className="items-center gap-1 rounded-full px-3 py-1.5 text-lg transition-all duration-300 hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43] hover:shadow-md"
+            className="flex items-center justify-center gap-1 rounded-full px-3 py-1.5 text-lg transition-all duration-300 hover:bg-[#380f43] hover:text-neutral-100 text-[#380f43] hover:shadow-md"
           >
             Meet the Team
           </Link>
