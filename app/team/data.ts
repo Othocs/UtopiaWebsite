@@ -126,4 +126,13 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/alexis-vannson/",
     },
   },
+  {
+    id: 11,
+    name: "Ilian Hadna",
+    role: "Treasurer",
+    imageUrl: "/team/ilian.jpeg",
+    bio: "",
+    isFounder: true,
+    socialLinks: {},
+  },
 ];
