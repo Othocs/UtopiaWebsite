@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-[#fcf2ff]/65 fixed top-0 w-full z-40 backdrop-blur-sm transition-all duration-300 ${
+      className={`bg-[#fcf2ff] fixed top-0 w-full z-40 backdrop-blur-sm transition-all duration-300 ${
         scrolled ? "shadow-md" : "shadow-sm"
       }`}
     >
@@ -66,28 +66,32 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center">
           <button
             onClick={toggleMobileMenu}
-            className="p-2 rounded-md text-[#380f43] hover:bg-[#380f43] hover:text-white transition-all duration-300"
+            className="p-3 rounded-md text-[#380f43] hover:bg-[#380f43] hover:text-white transition-all duration-300 mr-2"
             aria-expanded={mobileMenuOpen}
             aria-label="Toggle menu"
           >
             {/* Hamburger icon with animated transition */}
-            <div className="relative w-6 h-6">
+            <div className="relative w-6 h-5 flex flex-col justify-between">
               <span
-                className={`absolute h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out ${
-                  mobileMenuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+                className={`absolute h-0.5 w-full bg-current transform transition-all duration-300 ease-in-out ${
+                  mobileMenuOpen
+                    ? "top-1/2 -translate-y-1/2 rotate-45"
+                    : "top-0"
                 }`}
               />
               <span
-                className={`absolute h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out ${
+                className={`absolute top-1/2 -translate-y-1/2 h-0.5 w-full bg-current transform transition-all duration-300 ease-in-out ${
                   mobileMenuOpen ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`absolute h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out ${
-                  mobileMenuOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
+                className={`absolute h-0.5 w-full bg-current transform transition-all duration-300 ease-in-out ${
+                  mobileMenuOpen
+                    ? "top-1/2 -translate-y-1/2 -rotate-45"
+                    : "bottom-0"
                 }`}
               />
             </div>
