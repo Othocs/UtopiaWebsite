@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
     id: 2,
     name: "Simon Lorenzo",
     role: "Vice-President",
-    imageUrl: "/team/simon.jpeg",
+    imageUrl: "/team/simontetee.png",
     bio: "Simon is an expert in fundraising and is currently helping innovative startups at Brakage.",
     isFounder: true,
     socialLinks: {
@@ -107,7 +107,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 9,
     name: "Satvik Puti",
-    role: "Head of events",
+    role: "Head of Events",
     imageUrl: "/team/satvik.jpeg",
     bio: "MiM Essec, Currently working as Consumer Insights Manager at Opella (Sanofi CHC)",
     isFounder: true,
@@ -134,5 +134,27 @@ export const teamMembers: TeamMember[] = [
     bio: "",
     isFounder: true,
     socialLinks: {},
+  },
+  {
+    id: 12,
+    name: "Anastasia Bouev Dombre",
+    role: "Member of Team Communication",
+    imageUrl: "/team/anastasia.jpeg",
+    bio: "Student in AI, Data and Management Sciences at CentraleSupélec and ESSEC Business School",
+    isFounder: false,
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/anastasia-bouev-dombre/",
+    },
+  },
+  {
+    id: 13,
+    name: "Alessia Antonielli",
+    role: "Head of Communication",
+    imageUrl: "/team/alessia.jpeg",
+    bio: "Multilingual ESSEC BBA student with experience at PwC and Lazard Frères Gestion",
+    isFounder: true,
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/alessia-antonielli/",
+    },
   },
 ];

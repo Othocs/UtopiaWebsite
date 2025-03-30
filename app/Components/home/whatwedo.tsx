@@ -23,16 +23,12 @@ const Whatwedo = () => {
               className="bg-[#b35fd6] rounded-md shadow-md border-[#cc8ce6] border-4 hover:border-[#d058ff]"
             >
               <Image
-                src={"/images/event.jpeg"}
+                src={"/affiches/Whatwedoaffiches/eventsc.jpg"}
                 alt="event"
                 width={500}
                 height={500}
                 className="w-full rounded-t-md"
               />
-              <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
-                {" "}
-                Events{" "}
-              </h1>
             </motion.div>
           </Link>
 
@@ -42,16 +38,12 @@ const Whatwedo = () => {
               className="bg-[#b35fd6] rounded-md shadow-md border-[#cc8ce6] border-4 hover:border-[#d058ff]"
             >
               <Image
-                src={"/images/formation.png"}
+                src={"/affiches/Whatwedoaffiches/trainingsc.jpg"}
                 alt="formation"
                 width={500}
                 height={500}
                 className="w-full rounded-t-md"
               />
-              <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
-                {" "}
-                Trainings{" "}
-              </h1>
             </motion.div>
           </Link>
 
@@ -61,16 +53,12 @@ const Whatwedo = () => {
               className="bg-[#b35fd6] rounded-md shadow-md border-[#cc8ce6] border-4 hover:border-[#d058ff]"
             >
               <Image
-                src={"/affiches/affiches_hack/hack_2.png"}
+                src={"/affiches/Whatwedoaffiches/hackathonsc.jpg"}
                 alt="hackathon"
                 width={500}
                 height={500}
                 className="w-full rounded-t-md"
               />
-              <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
-                {" "}
-                Hackathons{" "}
-              </h1>
             </motion.div>
           </Link>
 
@@ -80,16 +68,12 @@ const Whatwedo = () => {
               className="bg-[#b35fd6] rounded-md shadow-md border-[#cc8ce6] border-4 hover:border-[#d058ff]"
             >
               <Image
-                src={"/images/comingsoon.png"}
+                src={"/affiches/Whatwedoaffiches/consultingc.jpg"}
                 alt="hackathon"
                 width={500}
                 height={500}
                 className="w-full rounded-t-md"
               />
-              <h1 className="font-semibold text-2xl text-white pt-3 pb-3 text-center">
-                {" "}
-                Consulting{" "}
-              </h1>
             </motion.div>
           </Link>
         </Fade>

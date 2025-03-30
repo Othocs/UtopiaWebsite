@@ -24,11 +24,13 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
         <Image
           src={member.imageUrl}
           alt={member.name}
-          width={400}
-          height={400}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+          quality={85}
+          priority={member.isFounder}
         />
         {/* Fallback always added in DOM but only shown if image fails to load via CSS */}
         <div className="absolute inset-0 flex items-center justify-center bg-purple-100 text-purple-800 text-4xl font-bold opacity-0 [.image-loading_&]:opacity-100">

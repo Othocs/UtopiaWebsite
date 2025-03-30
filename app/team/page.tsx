@@ -20,7 +20,7 @@ export default function TeamPage() {
             <div className="mx-auto w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder) => (
               <div key={founder.id} className="flex justify-center">
                 <div className="w-full max-w-md">
