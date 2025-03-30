@@ -131,9 +131,11 @@ export const teamMembers: TeamMember[] = [
     name: "Ilian Hadna",
     role: "Treasurer",
     imageUrl: "/team/ilian.jpeg",
-    bio: "",
+    bio: "Double degree student at ESSEC-ENSAE, interested in generative IA for helping quantitative developers.",
     isFounder: true,
-    socialLinks: {},
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/ilian-hadna/",
+    },
   },
   {
     id: 12,
