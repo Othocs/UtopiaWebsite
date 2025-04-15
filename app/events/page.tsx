@@ -21,7 +21,7 @@ export default async function EventsPage() {
           {/* Adding the registration button below the countdown */}
           <div className="">
             <LumaCheckout
-              eventId="evt-5p3EajImDt6e6jC"
+              eventId="evt-eCYAZk37JyivDI6"
               buttonText="Register Now"
             />
           </div>

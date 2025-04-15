@@ -159,4 +159,16 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/alessia-antonielli/",
     },
   },
+  {
+    id: 14,
+    name: "Théo Belen-Halimi",
+    role: "Founder",
+    imageUrl: "/team/Theo.jpg",
+    bio: "CentraleSupelec & ESSEC, Data Scientist Artefact",
+    isFounder: true,
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/theo-belen-halimi/",
+      github: "https://github.com/Behachee",
+    },
+  },
 ];
