@@ -162,13 +162,24 @@ export const teamMembers: TeamMember[] = [
   {
     id: 14,
     name: "Théo Belen-Halimi",
-    role: "Founder",
+    role: "Founding Member",
     imageUrl: "/team/Theo.jpg",
     bio: "CentraleSupelec & ESSEC, Data Scientist Artefact",
     isFounder: true,
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/theo-belen-halimi/",
       github: "https://github.com/Behachee",
+    },
+  },
+  {
+    id: 15,
+    name: "Henri de Lambilly",
+    role: "Member of Team Events",
+    imageUrl: "/team/henri.jpeg",
+    bio: "MiM at ESSEC Business School. Passionate about how AI is transforming business models, productivity, and decision-making across the economy.",
+    isFounder: false,
+    socialLinks: {
+      linkedin: "http://linkedin.com/in/henri-de-lambilly",
     },
   },
 ];
